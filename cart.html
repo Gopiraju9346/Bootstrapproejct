@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title >Shopping Cart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div style="position: absolute; top: 20px; right: 20px;">
+        <a href="home.html" target="_blank">
+          <button class="btn btn-primary" style="padding: 8px 16px; font-size: 14px;">HOME</button>
+        </a>
+      </div>
+  <div class="container py-5">
+    <h2 class="mb-4" align="center">Shopping Cart</h2>
+
+    <div class="card mb-3">
+      <div class="row g-0 align-items-center">
+          <div class="card mb-3">
+            <div class="row g-0 align-items-center">
+              <div class="col-md-2">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR1ab_w4PtdWWZVCof5_O_Tqh-h6TuP1tYTlm3qKeQnNmvYq0WXICRmRCFSM42EU8NhvawFWod9eJR06YX_mYeLCmZg0UvjRzpp_-kUgpGTMYB5fsNWTXONGA" class="img-fluid rounded-start" alt="Product">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p class="card-text">Price: ₹100</p>
+                </div>
+        </div>
+        <div class="col-md-2">
+          <input type="number" class="form-control" value="1" min="1">
+        </div>
+        <div class="col-md-2 text-center">
+          <button class="btn btn-danger">Remove</button>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="card mb-3">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-2">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREJq0qVBiutQ0JhUSuY7JRANu-yM3KLhNE3Q&s" class="img-fluid rounded-start" alt="Product">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Another Product</h5>
+            <p class="card-text">Price: ₹499</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <input type="number" class="form-control" value="2" min="1">
+        </div>
+        <div class="col-md-2 text-center">
+          <button class="btn btn-danger">Remove</button>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card mt-4">
+      <div class="card-body">
+        <h5 class="card-title">Cart Summary</h5>
+        <p class="card-text">Total Items: 2</p>
+        <p class="card-text">Total Price: ₹599</p>
+        <button class="btn btn-success w-100">Proceed to Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
